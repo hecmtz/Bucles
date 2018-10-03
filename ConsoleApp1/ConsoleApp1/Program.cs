@@ -278,37 +278,66 @@ namespace ConsoleApp1
                 Console.WriteLine("Gracias.");
             */
 
-            int num  ;
-            int num2 = 0;
-            Console.WriteLine("Introduce un numero .");
-            num = Convert.ToInt32(Console.ReadLine());
+
+            ////////int num  ;
+            ////////int num2 = 0;
+            ////////int num1;
+
+            ////////Console.WriteLine("Introduce un numero .");
+            ////////num = Convert.ToInt32(Console.ReadLine());
+
+
+            ////////if(num!=0) // comprueba que no sea = si es 0 termina el programas
+            ////////{
+            ////////    // i=num hasta que sea = 0 
+            ////////    for (int i=num ; i > 0; i--)
+            ////////    //      i=5     5>0   5--
+            ////////    //              4>0   4--
+
+            ////////    {
+            ////////        J
+            ////////        num1 = num % 10;
+            ////////        Console.WriteLine(i);
+            ////////        Console.WriteLine(num1);
+            ////////    }
+            ////////}
+            ////////else
+            ////////{
+            ////////    Console.WriteLine("0");
+            ////////    Console.WriteLine("Adios");
+
+            ////////}
+            ///
+            /*
+            string respuesta ;
+
+            Console.WriteLine("Ingresa un nombre");
+            respuesta = Console.ReadLine();
+
+            for (int i = 0; i <respuesta.Length; i++)
+            {
+                Console.WriteLine(respuesta[i]);
+
+            }
+            */
+            string respuesta;
+            int npalabras;
+
+            Console.WriteLine("Ingresa un nombre");
+            respuesta = Console.ReadLine();
+            //string[] separatingChars = { "<<", "...", "<", " " };  // sirve para ignorar caracteres
+            System.Console.WriteLine(respuesta.Split());     
+
+            for (int i=0; i< respuesta.Length ;i++ )
+            {
+                System.Console.WriteLine(respuesta);
+                Console.WriteLine("La frase tiene " + i + " palabras ");
+            }
+            System.Console.WriteLine(respuesta);
             
-
-            if(num!=0) // comprueba que no sea = si es 0 termina el programas
-            {
-                // i=num hasta que sea = 0 
-                for (int i=num ; i > 0; i--)
-                //      i=5     5>0   5--
-                //              4>0   4--
-
-                {
-                    
-                    Console.WriteLine(i);
-                    while (num2)
-                    {
-
-                    }
-                }
-            }
-            else
-            {
-                Console.WriteLine("0");
-                Console.WriteLine("Adios");
-
-            }
-
-
             Console.ReadLine();
+
+
         }
 
             
