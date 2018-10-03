@@ -284,7 +284,7 @@ namespace ConsoleApp1
             num = Convert.ToInt32(Console.ReadLine());
             
 
-            if(num!=0) // comprueba que no sea = si es 0 termina el programa
+            if(num!=0) // comprueba que no sea = si es 0 termina el programas
             {
                 // i=num hasta que sea = 0 
                 for (int i=num ; i > 0; i--)
