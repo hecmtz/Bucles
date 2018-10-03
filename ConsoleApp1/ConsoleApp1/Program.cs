@@ -35,17 +35,19 @@ namespace ConsoleApp1
             //} while (i<0);
             
              */
-            int num , num1=0 ;
-            for (int i = 1; i <= 4; i++)
-            {
-                Console.WriteLine("Inserta el valor del numero "+ i );
-                num = Convert.ToInt32(Console.ReadLine());
-                num1 = num1 + num; // se suman el valor antiguo y el nuevo
-                
 
-            }
-            Console.WriteLine("La suma es: " + num1);
+            //int num , num1=0 ;
+            //for (int i = 1; i <= 4; i++)
+            //{
+            //    Console.WriteLine("Inserta el valor del numero "+ i );
+            //    num = Convert.ToInt32(Console.ReadLine());
+            //    num1 = num1 + num; // se suman el valor antiguo y el nuevo
 
+
+            //}
+            //Console.WriteLine("La suma es: " + num1);
+
+            Console.WriteLine("  ");
 
             Console.ReadLine();
 
