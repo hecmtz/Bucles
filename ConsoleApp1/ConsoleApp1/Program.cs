@@ -320,26 +320,41 @@ namespace ConsoleApp1
 
             }
             */
+
+            ////string[] respuesta; 
+            ////string npalabras [];
+            ////char[] charSeparators = new char[] { ',' };
+
             string respuesta;
-            int npalabras;
-
+            int palabras=0; 
             Console.WriteLine("Ingresa un nombre");
-            respuesta = Console.ReadLine();
-            //string[] separatingChars = { "<<", "...", "<", " " };  // sirve para ignorar caracteres
-            System.Console.WriteLine(respuesta.Split());     
-
-            for (int i=0; i< respuesta.Length ;i++ )
+            respuesta =Convert.(Console.ReadLine());
+            for (int i=0; i<respuesta.Length; i++)
             {
-                System.Console.WriteLine(respuesta);
-                Console.WriteLine("La frase tiene " + i + " palabras ");
+                if (respuesta[i] == ' ')
+                {
+                    palabras++; }                    
+
+            
             }
-            System.Console.WriteLine(respuesta);
+
+
+                System.Console.WriteLine(respuesta);
+                Console.WriteLine( "La frase tiene " + palabras + " palabras ");
+            }
+            
+
+            }
+
+
+    System.Console.WriteLine(respuesta);
+
             
             Console.ReadLine();
 
 
         }
-
+        --
             
            
         
