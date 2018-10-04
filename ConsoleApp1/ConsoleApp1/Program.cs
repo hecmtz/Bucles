@@ -488,6 +488,59 @@ namespace ConsoleApp1
             Console.WriteLine(fecha);
             Console.ReadLine();
             */
+            //
+
+
+            ///////////Arrays///////////
+            ///////////Arrays///////////
+
+            /*
+            string nombre ="hector";
+            char[] arrayNombre = nombre.ToCharArray(); // aqui convierte los valores del array en character
+                                                       //asi se puede separar el string.
+            Array.Reverse(arrayNombre);
+
+           /* for (int i = 0; i < arrayNombre.Length;i++)
+            {
+                Console.Write(arrayNombre[i].ToString());
+            }
+            */
+
+
+            /*
+            string [] nombres = new string [3] ;
+
+            
+
+            for(int i=0; i<3; i++)
+            {
+                Console.WriteLine("Escribe el nombre : \r");
+                nombres[i] = Console.ReadLine();
+                
+            }
+            Console.Clear();
+            Console.WriteLine("\n" + nombres[1]);
+            Console.WriteLine("\n" + nombres[2]);
+            Console.WriteLine("\n" + nombres[0]);
+            */
+
+            int[] numeros = new int[10];
+            int j=20;
+
+            for (int i=0; i<10; i++)
+            {
+                numeros[i]= j;
+                j--;
+                Console.WriteLine(numeros[i]);
+            }        
+
+
+            Console.ReadLine();
+
+            
+            //letras= letras.reverse;
+
+
         }
     }
 
@@ -500,4 +553,3 @@ namespace ConsoleApp1
         
     
 
-0
