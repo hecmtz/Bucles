@@ -325,6 +325,7 @@ namespace ConsoleApp1
             ////string npalabras [];
             ////char[] charSeparators = new char[] { ',' };
 
+            /*
             string respuesta;
             int palabras=0; 
             Console.WriteLine("Ingresa un nombre");
@@ -333,30 +334,170 @@ namespace ConsoleApp1
             {
                 if (respuesta[i] == ' ')
                 {
-                    palabras++; }                    
+                    palabras++; 
+                }                    
 
             
             }
-
-
-                System.Console.WriteLine(respuesta);
+                
                 Console.WriteLine( "La frase tiene " + palabras + " palabras ");
+                
+
+           */
+
+
+
+            /*
+            string a = "hola";
+            string b= "aloh" ;
+            Console.WriteLine("La string de la variable 1 es " + a );
+            Console.WriteLine("La string de la variable 2 es " + b);
+            a = string.Copy(b);
+            Console.WriteLine("La string copiada de la var 1 a la 2 es " + a);
+            */
+
+
+
+            /*string palabra;
+            Console.WriteLine("Escribe una palabra");
+            palabra = Console.ReadLine();
+
+            Console.WriteLine(palabra.ToLower());
+            Console.WriteLine(palabra.ToUpper());
+            Console.ReadLine();
+             */
+
+            //comprar si contiene un carater  ( manera facil abajo esta la manera con loops)
+            /*
+            string prueba = "cachia";
+            int  contiene=0 ;
+
+            if ( prueba.Contains('r'))
+            {
+                Console.WriteLine("Si la contiene");
             }
-            
+            else
+            {
+                Console.WriteLine("No la contiene");
+            }
+            */
+
+            /*
+            for (int i=0; i<prueba.Length; i++)
+            { 
+
+                if (prueba[i]== 'r'|| prueba[i] == 'r')
+                {
+                    contiene = 1;
+                }
+                                
+            }
+            if (contiene == 1)
+            {
+                Console.WriteLine("Si la contiene");
+            }
+            else
+            {
+                Console.WriteLine("No la contiene");
+            }
+
+    */
+
+            //coger las 2 letras de enmedio.
+
+
+            /*
+            string palabra ="hola";
+            int i;
+
+            for (i = 0; i < palabra.Length; i++)
+            {
+                //COMPROBAR LA LONGITUD DE LA LETRA
 
             }
 
+            if (palabra.Length%2 == 1)
+            {
+                i = i / 2;
+                Console.WriteLine(palabra +" las letras de enmedio es " + (palabra[i]) );
 
-    System.Console.WriteLine(respuesta);
-
-            
+                
+            }
+            else
+            {
+                i = i / 2 - 1;
+                Console.WriteLine(palabra + " la letra de enmedio es " + (palabra[i]) + (palabra[i + 1]));
+                
+            }
             Console.ReadLine();
 
+            */
 
+
+            /*
+            string frase;
+            int i , digit=0;
+            bool correcto=false;
+
+            //do
+            //{
+            do
+            {
+                Console.WriteLine("Ingresa una contraseña ");
+                frase = Console.ReadLine();
+                //contraseniaososos
+
+                for (i = 0; i < frase.Length; i++)
+                {
+                        if (char.IsDigit(frase[i]) == true)
+                        {
+                            digit++;
+
+                        
+                        }
+                }
+
+
+                if (digit > 1)
+                {
+                    correcto = true;
+                }
+                Console.WriteLine("prueba correcto es : "+ correcto );
+                Console.ReadLine();
+
+                if (frase.Length <7 || correcto != true )
+                {
+                        Console.WriteLine("Error contraseña con menos de 2 digitos o no es lo suficiente larga \n");
+                        correcto = false;
+                }
+                  
+            } while (frase.Length <= 8 ||  correcto != true);
+          
+
+           // } while( digit < 2);
+
+             Console.Clear();
+             Console.WriteLine("Contraseña ingresada correctamente \n Bienvenido ");
+             Console.ReadLine();
+            }
+*/
+
+            //Escribe un programa que al meter tres números por teclado identifique el mínimo y el máximo (usa el método correspondiente). 
+
+            /*string fecha = DateTime.Now.ToString("MM/dd/yyyy H:mm");
+            Console.WriteLine(fecha);
+            Console.ReadLine();
+            */
         }
-        --
+    }
+
+
+
+    }
+       
             
            
         
-    }
-}
+    
+
+0
